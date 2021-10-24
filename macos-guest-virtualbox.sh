@@ -32,16 +32,16 @@ resolution="1280x800"            # VM display resolution
 
 # Assigning the following parameters is not required when installing or using macOS.
 
-DmiSystemFamily="MacBook Pro"          # Model Name
-DmiSystemProduct="MacBookPro11,2"      # Model Identifier
-DmiBIOSVersion="string:MBP7.89"        # Boot ROM Version
-DmiSystemSerial="NO_DEVICE_SN"         # Serial Number (system)
-DmiSystemUuid="CAFECAFE-CAFE-CAFE-CAFE-DECAFFDECAFF" # Hardware UUID
-ROM='%aa*%bbg%cc%dd'                   # ROM identifier
-MLB="NO_LOGIC_BOARD_SN"                # MLB SN stored in NVRAM
+DmiSystemFamily="iMac Pro"          # Model Name
+DmiSystemProduct="iMacPro1,1"      # Model Identifier
+DmiBIOSVersion="string:MP7.89"        # Boot ROM Version
+DmiSystemSerial="C02G1WZYHX87"         # Serial Number (system)
+DmiSystemUuid="CFAF1449-0321-4C23-81CC-9D3F1EE6D602" # Hardware UUID
+ROM='BC3BAFCB4691'                   # ROM identifier
+MLB="C021272074NJG368C"                # MLB SN stored in NVRAM
 DmiBoardSerial="${MLB}"                # MLB SN stored in EFI
-DmiBoardProduct="Mac-3CBD00234E554E41" # Product (board) identifier
-SystemUUID="aabbccddeeff00112233445566778899" # System UUID
+DmiBoardProduct="Mac-7BA5B2D9E42DDD94" # Product (board) identifier
+SystemUUID="CFAF1449-0321-4C23-81CC-9D3F1EE6D602" # System UUID
 
 # If the script is running on macOS and "get_parameters_from_macOS_host" is
 # set to "yes", the script will attempt to get the host's EFI and NVRAM
